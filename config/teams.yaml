@@ -1,0 +1,12 @@
+# Per-team configuration. Hot-reloadable — edit and POST /admin/reload.
+teams:
+  team-alpha:
+    api_key: alpha-key-123
+    requests_per_min: 60
+    monthly_budget_usd: 100.0
+    allowed_models: [gpt-4o, gpt-4o-mini, claude-sonnet-4-5, claude-haiku-4-5, llama3]
+  team-beta:
+    api_key: beta-key-456
+    requests_per_min: 20
+    monthly_budget_usd: 25.0
+    allowed_models: [gpt-4o-mini, claude-haiku-4-5, llama3]
